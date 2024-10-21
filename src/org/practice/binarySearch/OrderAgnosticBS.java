@@ -1,7 +1,7 @@
 package org.practice.binarySearch;
 
 public class OrderAgnosticBS {
-    
+
     public static void main(String[] args) {
         int[] asc = {1,2,3,4,5,5,6,7,9};
         int[] desc = {9,8,7,6,6,5,5,4,3,2,1};
