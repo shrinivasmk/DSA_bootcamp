@@ -7,6 +7,7 @@ public class Square extends Shape {
     }
 
     static void greetings(){
+        
         System.out.println("hello from subclass Square , Greeting!");
     }
 }
