@@ -1,5 +1,10 @@
 package org.topic.oop.abstractDemo;
 
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+// abstract class can implement interface
 public abstract class Parent extends GrandParents {
     int  age;
 
@@ -9,6 +14,10 @@ public abstract class Parent extends GrandParents {
         super();
         this.age = age;
     }
+
+    LinkedList<String> ints = new LinkedList<String>();
+
+    ArrayList<String> list = new ArrayList<>();
 
     //abstract void property();
 
